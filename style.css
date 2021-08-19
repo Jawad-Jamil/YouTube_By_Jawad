@@ -534,7 +534,7 @@ img#like , img#unlike{
 
   .range_wrapper{
     position: absolute;
-    bottom: 0px;
+    bottom: 2px;
     left: 0px;
     right: 0px;
     padding: 0px 10px;
