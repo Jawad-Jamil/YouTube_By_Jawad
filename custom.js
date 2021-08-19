@@ -1,5 +1,8 @@
 window.addEventListener('load', ()=>{
-    document.querySelector('.preloader_wrapper').setAttribute("style","display:none;");
+    
+    setTimeout(()=>{
+        document.querySelector('.preloader_wrapper').classList.add("preloading")
+    }, 1500)
 })
 
 
