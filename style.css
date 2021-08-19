@@ -23,11 +23,21 @@
     width: 100%;
     margin: 0;
     padding:0;
+    z-index: 999999999;
+    position: absolute;
+    top: 0;
+    left: 0px;
 }
 
 .preloader_wrapper img{
     height: 100%;
     width: 100%;
+}
+
+.preloading{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
 }
 
 @keyframes rotating {
@@ -534,7 +544,7 @@ img#like , img#unlike{
 
   .range_wrapper{
     position: absolute;
-    bottom: 2px;
+    bottom: 0px;
     left: 0px;
     right: 0px;
     padding: 0px 10px;
