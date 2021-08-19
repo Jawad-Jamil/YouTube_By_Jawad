@@ -1,0 +1,170 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .thumb_vid_wrapper{
+        width: 33.33333333333%;
+    }
+
+    .main_part{
+        padding: 20px !important;
+    }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    i.up_video , div.braille , i.notification{
+        display: none;
+    }
+
+    .profile_wrapper{
+        width: unset;
+    }
+
+    .play_part{
+        width: 100%;
+    }
+    
+    .thumb_vid_wrapper {
+        width: 50%;
+    }
+    
+    .play_page_left{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .play_page_right{
+        width: 85%;
+    }
+
+    .play_page_right .thumb_vid_wrapper {
+        width: 85%;
+    }
+
+    .content_when_played .thumb_wrapper {
+        width: 60%;
+    }
+
+    .content_when_played .thumb_vid_wrapper {
+        width: 100%;
+    }
+
+    .content_when_played{
+        padding-top: 20px;
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    
+    .video_title {
+        margin-top: 62%;
+    }
+
+    .play_video_wrapper {
+        width: 95%;
+        top: 58px;
+        position: fixed;
+        padding-top: 10px;
+        right: 2.5%;
+        left: 2.5%;
+        background-color: var(--mainbg);
+        z-index: 100;
+    }
+    
+    
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+    .left_menu_wrapper{
+        display: none;
+    }
+
+    .content_part{
+        margin-left: 0px;
+        padding: 0px !important;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    
+    .thumb_vid_wrapper {
+        overflow: hidden;
+    }
+
+    div.search_wrapper{
+        display: none;
+    }
+
+    i.header_right_search{
+        display: inline-block;
+    }
+    
+    a.header_bar {
+    display: none;
+    }
+
+    i.up_video , i.notification{
+        display: unset;
+    }
+
+    .profile_wrapper{
+        width: 110px;
+    }
+
+    .thumb_vid_wrapper {
+        width: 100%;
+    }
+
+    .user_profile{
+        display: none;
+    }
+
+    .subscribe_wrapper img{
+        width: 135px;
+    }
+    
+    .content_when_played {
+        padding-top: 20px;
+        width: 100%;
+    }   
+
+    .content_when_played .thumb_wrapper {
+        width: 100%;
+    }
+
+    .content_when_played .thumb_vid_wrapper {
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+    .main_part{
+        padding: 10px !important;
+    }
+
+    .play_video_wrapper:hover div.overly_poster , .play_video_wrapper:hover .range_wrapper{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .overlys{
+        visibility: visible !important; 
+        opacity: 1 !important;
+    }
+
+}
+
+
+/* Very small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+
+    .play_page_container {
+        width: 300px;
+    }
+}
