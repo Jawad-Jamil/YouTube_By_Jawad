@@ -503,7 +503,7 @@ function PlayPause() {
         play_btn.classList.remove("fa-pause");
         play_btn2.classList.add("fa-play");
         play_btn2.classList.remove("fa-pause");
-        play_btn.setAttribute("style", "transform: translateY(0px); transition:.2s; opacity: 1;")
+        play_btn.setAttribute("style", "transform: translateY(50px); transition:.2s; opacity: 0;")
 
     }
 
